@@ -1,0 +1,10 @@
+<!-- TODO-10 create a generic base template -->
+
+<header>
+  <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
+</header>
+
+<!-- blocks can be overwritten by child templates via inheritance -->
+{% block content %}
+
+{% endblock %}
